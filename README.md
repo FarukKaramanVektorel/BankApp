@@ -17,23 +17,6 @@ Bank Application is a simple bank account simulation written in Java. This appli
 3. Run the `Main` class to start the application.
 4. Follow the instructions in the console to interact with the bank account.
 
-## Example Usage
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        BankAccount account = new BankAccount("1234567890");
-        account.deposit(1000);
-        account.withdraw(500);
-        System.out.println("Current Balance: " + account.getBalance());
-        String[] transactions = account.getTransactionHistory();
-        for (String transaction : transactions) {
-            System.out.println(transaction);
-        }
-    }
-}
-In this example, we create a BankAccount object with the account number "1234567890". We then deposit 1000 units of currency into the account and withdraw 500 units. The current balance is displayed using the getBalance() method, and the transaction history is retrieved and printed to the console.
-
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
@@ -60,23 +43,7 @@ Banka Uygulaması, Java dilinde yazılmış basit bir banka hesabı simülasyonu
 3. `Main` sınıfını çalıştırarak uygulamayı başlatın.
 4. Konsol ekranındaki talimatları izleyerek banka hesabıyla etkileşimde bulunun.
 
-## Örnek Kullanım
 
-```java
-public class Main {
-    public static void main(String[] args) {
-        BankAccount account = new BankAccount("1234567890");
-        account.deposit(1000);
-        account.withdraw(500);
-        System.out.println("Mevcut Bakiye: " + account.getBalance());
-        String[] transactions = account.getTransactionHistory();
-        for (String transaction : transactions) {
-            System.out.println(transaction);
-        }
-    }
-}
-Bu örnekte, "1234567890" hesap numarasıyla bir BankAccount nesnesi oluşturulur. Ardından, hesaba 1000 birim para yatırılır ve 500 birim çekilir.
-getBalance() metoduyla mevcut bakiye ekrana yazdırılır ve işlem geçmişi alınarak konsola yazdırılır.
 
 ## Katkıda Bulunma
 Katkılarınızı bekliyoruz! Eğer herhangi bir sorun bulursanız veya iyileştirme önerileriniz varsa, lütfen bir sorun açın veya bir "pull request" gönderin.
