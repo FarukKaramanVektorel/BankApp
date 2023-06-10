@@ -46,7 +46,7 @@ Banka Uygulaması, Java dilinde yazılmış basit bir banka hesabı simülasyonu
 
 
 ## Katkıda Bulunma
-Katkılarınızı bekliyoruz! Eğer herhangi bir sorun bulursanız veya iyileştirme önerileriniz varsa, lütfen bir sorun açın veya bir "pull request" gönderin.
+Katkılarınızı bekliyoruz! Eğer herhangi bir sorun bulursanız veya iyileştirme önerileriniz varsa, lütfen bir "issue"  açın veya bir "pull request" gönderin.
 
 ## Lisans
 Bu proje MIT Lisansı ile lisanslanmıştır. Detaylar için LICENSE dosyasına bakın.
